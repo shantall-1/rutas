@@ -4,7 +4,7 @@ import { Inicio } from './paginas/Inicio'
 import { Nosotros } from './paginas/Nosotros'
 import { Productos } from './paginas/Productos'
 import { Detalle } from './paginas/Detalles'
-import {Navbar} from './Componentes/navbar'
+import {Navbar} from './Componentes/Navbar'
 
 function App() {
 
