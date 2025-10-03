@@ -6,49 +6,49 @@ export const productosOficina = [
     nombre: "Juego de Escritorio de Bambú",
     descripcion: "Set elegante de bambú, incluye porta-lápices, bandeja y dispensador de notas.",
     precio: 35.99,
-    imagen: "imagen-escritorio-bambu.jpg" 
+    imagen: "https://http2.mlstatic.com/D_NQ_NP_606588-MPE77908301625_072024-O-juego-de-escritorio-y-silla-para-ninos-de-altura-de-bambu.webp" 
   },
   {
     id: 2,
     nombre: "Silla Ergonómica de Malla Alta",
     descripcion: "Silla con soporte lumbar ajustable y reposacabezas, ideal para largas jornadas.",
     precio: 189.99,
-    imagen: "imagen-silla-ergonomica.jpg"
+    imagen: "https://m.media-amazon.com/images/I/71VqFok9TRL._UF894,1000_QL80_.jpg"
   },
   {
     id: 3,
     nombre: "Monitor Ultrawide Curvo 34\"",
     descripcion: "Pantalla con resolución 2K, perfecta para multitarea y diseño gráfico.",
     precio: 450.00,
-    imagen: "imagen-monitor-ultrawide.jpg"
+    imagen: "https://www.acerstore.cl/cdn/shop/files/1_XZ342CU.png?v=1757536474"
   },
   {
     id: 4,
     nombre: "Teclado Mecánico Silencioso",
     descripcion: "Teclado con switches Cherry MX Brown y retroiluminación ajustable.",
     precio: 95.50,
-    imagen: "imagen-teclado-mecanico.jpg"
+    imagen: "https://m.media-amazon.com/images/I/61c3QtJorLL._UF894,1000_QL80_.jpg"
   },
   {
     id: 5,
     nombre: "Mouse Inalámbrico Vertical",
     descripcion: "Diseño ergonómico para reducir la tensión en la muñeca, con conexión USB-C.",
     precio: 49.95,
-    imagen: "imagen-mouse-vertical.jpg"
+    imagen: "https://m.media-amazon.com/images/I/517BqYXDduL._UF894,1000_QL80_.jpg"
   },
   {
     id: 6,
     nombre: "Lámpara LED de Escritorio",
     descripcion: "Con tres modos de luz y puerto de carga USB integrado.",
     precio: 45.00,
-    imagen: "imagen-lampara-led.jpg"
+    imagen: "https://ae01.alicdn.com/kf/S665546981f85434e83a801d3ef7ca0f8l/Kawaii-Desk-Lamp-Sanrio-Hellokitty-Mymelody-Cute-Anime-Eye-Protection-Student-Girls-Gift-Learning-Led-Rechargeable.jpg"
   },
   {
     id: 7,
     nombre: "Cuaderno Inteligente Reutilizable",
     descripcion: "Cuaderno que se borra con un paño húmedo, compatible con apps de escaneo.",
     precio: 29.99,
-    imagen: "imagen-cuaderno-inteligente.jpg"
+    imagen: "https://minisope.vtexassets.com/arquivos/ids/247780/Cuaderno-con-cobertura-eva-64k-sanrio-characters-collection-my-melody-96-hojas-Sanrio-2-8214.jpg?v=638279121667030000"
   },
   {
     id: 8,

@@ -1,8 +1,9 @@
 // Productos.jsx
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 // Importa la lista de productos desde el archivo 'productos.js'
-import { productosOficina } from '../assets/productos';
+import { productosOficina } from '../assets/Productos';
 
 export function Productos(){
     return(
@@ -52,8 +53,8 @@ export function Productos(){
                       </p> 
                       
                       <button style={{ 
-                        backgroundColor: '#007bff', 
-                        color: 'white', 
+                        backgroundColor: '#ff1d87ff', 
+                        color: '#a0064eff', 
                         padding: '10px 15px', 
                         border: 'none', 
                         borderRadius: '5px', 
@@ -62,6 +63,25 @@ export function Productos(){
                       }}>
                         Añadir al carrito
                       </button>
+                      {/* Importa Link de 'react-router-dom' al inicio del archivo */}
+                      <Link 
+                        to={`/Productos/${producto.id}`} 
+                        style={{ 
+                          display: 'inline-block',
+                          backgroundColor: '#d42853ff', 
+                          color: 'white', 
+                          padding: '10px 1px', 
+                          border: 'none', 
+                          borderRadius: '5px', 
+                          cursor: 'pointer',
+                          width: '100%',
+                          textAlign: 'center',
+                          textDecoration: 'none'
+                        }} 
+                        className="button primary"
+                      >
+                        Ver detalles
+                      </Link>
                     </div>
                 ))}
                 
